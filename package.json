@@ -1,0 +1,19 @@
+{
+  "name": "gh-act",
+  "version": "1.0.0",
+  "description": "Learning how to use github-actions with prettier so it uses it when pushing to remote branch.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write './src/**/*.{js, mjs}'"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "author": "m0kitooo",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
